@@ -1,0 +1,32 @@
+.turbo
+node_modules
+vite.config.*.timestamp-*
+
+!**/glob-import/dir/node_modules
+.DS_Store
+.idea
+.pnpm-store
+*.cpuprofile
+*.local
+*.log
+/.vscode/
+/docs/.vitepress/cache
+/packages/vite/LICENSE
+dist
+dist-ssr
+explorations
+playground-temp
+temp
+TODOs.md
+
+*.tsbuildinfo
+.eslintcache
+*.node
+graph*.html
+
+# not pnpm
+.pnp.*
+.yarn/*
+
+# include .env files for tests
+!**/__fixtures__/**/*.env
